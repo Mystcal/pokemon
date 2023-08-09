@@ -9,7 +9,7 @@ from typing import TypeVar, Generic
 T = TypeVar('T')
 K = TypeVar('K')
 
-__author__ = 'Maria Garcia de la Banda and Brendon Taylor. Modified by Alexey Ignatiev'
+__author__ = 'Lim Yu Jin'
 __docformat__ = 'reStructuredText'
 
 class ListItem(Generic[T, K]):
