@@ -1,14 +1,5 @@
 """
 TITLE: battle 
-TASK 3: SET MODE BATTLE
-TASK 4: ROTATING MODE BATTLE
-TASK 5: OPTIMIZED MODE BATTLE
-
-GROUP: T06G05
-AUTHOR: LIM YU JIN 32637888 (Task 3), 
-        LAU ZI FU 32685092 (Task 4),
-        Low Lup Hoong 31167934 (Task 5)
-
 
 Description:
 Allows two players to play a pokemon game with different battle modes.
@@ -97,9 +88,6 @@ class Battle:
 
             elif criterion == "defence":
                 poke.key = int(poke.value.get_defence())
-
-
-############################    TASK 3    #######################################################################################################
 
 
 
@@ -217,8 +205,6 @@ class Battle:
             return self.team1.get_name()
 
 
-############################    TASK 4    #######################################################################################################
-
     def rotating_mode_battle(self) -> str:
         """In this mode, a Pokemon fights a round, and then is sent to the back of the team, making the next pokemon in the party fight the next
         round. The battle ends when at least one of the teams is empty. For this battle mode, the CircularQueue implementation of Queue ADT will
@@ -315,7 +301,6 @@ class Battle:
         else:
             return "Draw" #if both teams lose
 
-############################    TASK 5    #######################################################################################################
 
     def optimised_mode_battle(self, criterion_team1: str, criterion_team2: str) -> str:
         """In this mode, the pokemon are grouped based on the selected criteria, and will continue to be sorted based on criteria during the battle.
