@@ -3,7 +3,7 @@
 Defines a generic abstract stack with the usual methods, and implements 
 a stack using arrays. Also defines UnitTests for the class.
 """
-__author__ = "Maria Garcia de la Banda for the base"+"XXXXX student for"
+__author__ = "Lim Yu Jin"
 __docformat__ = 'reStructuredText'
 
 import unittest
