@@ -1,8 +1,4 @@
 """
-TITLE: POKEMON BASE Task 1
-GROUP: T06G05
-AUTHOR: MAH YUNG JIAN 31921582 
-EDITS: LIM YU JIN 32637888
 
 Description:
 Pokemon ADT to be implemented
