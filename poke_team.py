@@ -1,8 +1,4 @@
 """
-TITLE: POKEMON BASE Task 1
-GROUP: T06G05
-AUTHOR: MAH YUNG JIAN 31921582 
-EDITS: LAU ZI FU 32637888
 
 Description:
 Allows the creation of a pokemon team to be used for battle. The players will get to choose their number of pokemon and their player name 
