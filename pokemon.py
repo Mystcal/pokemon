@@ -1,8 +1,4 @@
 """
-TITLE: POKEMON Task 1
-GROUP: T06G05
-AUTHOR: MAH YUNG JIAN 31921582 
-EDITS: LIM YU JIN 32637888, LAU ZI FU 32685092
 
 Description:
 The implementaion of PokemonBase ADT and GlitchMon ADT (which itself is also a children class of PokemonBase).
